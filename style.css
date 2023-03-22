@@ -32,6 +32,7 @@ ul {
 .light {
     background-color: #242B3E;
     color: #ffffff;
+    font-size: 17px;
 }
 
 .dark {
@@ -92,6 +93,28 @@ header a {
 
 .fa-github {
     font-size: 43px;
+}
+
+/* Projects */
+#projects > .container {
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#projects > .container{
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px;
+    display: flex;
+    background-color: #061846;
+}
+
+div.projects {
+    float: right;
+    width: 300px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 
