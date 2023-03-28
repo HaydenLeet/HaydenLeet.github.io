@@ -56,6 +56,7 @@ header ul {
     height: 110%;
     display: flex;
     align-items: center;
+    
 }
 
 header li {
@@ -159,6 +160,10 @@ p {
     color: #f3df50;
 }
 
+.fa-python {
+    color: #4584b6;
+}
+
 #about .main-col {
     color: #fff;
 }
@@ -192,4 +197,13 @@ h1 {
         grid-template-columns: 1fr;
         text-align: center;
     }
+}
+
+/* Footer */
+footer {
+    background-color: #242B3E;
+    color: #e6e6e6;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
 }
