@@ -3,12 +3,19 @@
 
 /* Basic Styling */
 body {
+    width: 100%;
+  height: 100%;
+  margin: auto;
+  background: url('./background.png') no-repeat;
+  background-size: cover;
+}
+
+body {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     padding: 0;
     margin: 0;
     line-height: 1.5;
-    background-color: #3a4665;
 }
 
 .container {
@@ -38,6 +45,11 @@ ul {
 .dark {
     background-color: #242B3E;
     color: #ffffff;
+}
+
+#about h2 {
+    text-decoration: underline;
+
 }
 
 /* Header */
@@ -118,6 +130,12 @@ div.projects {
     padding: 10px;
 }
 
+#projects h2{
+    padding-left: 100px;
+    text-decoration: underline;
+    color: #fff;
+}
+
 
 
 /* Boxes */
@@ -161,9 +179,10 @@ p {
 }
 
 .fa-python {
-    color: #4584b6;
+    color: #ffde57;
 }
 
+/* About */
 #about .main-col {
     color: #fff;
 }
@@ -174,6 +193,10 @@ p {
 
 h1 {
     color: #fff;
+}
+
+#about a {
+    color: #90a5f5;
 }
 
 @media (max-width: 768px) {
@@ -192,11 +215,17 @@ h1 {
         width: 80%;
     }
 
-    #about > .container,
-    #services > .container {
+    #about > .container {
         grid-template-columns: 1fr;
         text-align: center;
     }
+}
+
+/* Contact */
+#contact h2 {
+    color: #fff;
+    text-decoration: underline;
+    padding-top: 100px;
 }
 
 /* Footer */
