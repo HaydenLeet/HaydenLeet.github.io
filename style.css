@@ -60,8 +60,9 @@ header {
 }
 
 header > .container {
+    float: left;
     display: flex;
-    justify-content:center;
+    text-align: center;
 }
 
 header ul {
