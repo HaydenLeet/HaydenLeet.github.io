@@ -80,13 +80,27 @@ header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 17px;
+}
+
+#navbar {
+    overflow: hidden;
+    position: relative;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
 }
 
 /* Showcase */
 #showcase {
     min-height: 400px;
     color: #fff;
+    padding-bottom: 170px;
 }
 
 #showcase h1 {
@@ -100,12 +114,15 @@ header a {
     font-size: 20px;
 }
 
-.fa-linkedin {
-    font-size: 43px;
+#showcase i {
+    font-size: 50px;
+    color: #fff;
 }
 
-.fa-github {
-    font-size: 43px;
+#showcase img {
+    margin-top: 90px;
+    padding-top: 50px;
+    padding-bottom: -50px;
 }
 
 /* Projects */
@@ -113,6 +130,7 @@ header a {
     padding: 1em;
     text-align: center;
     margin: 0 auto;
+    width: 85%;
 }
 
 #projects > .container{
@@ -124,27 +142,32 @@ header a {
 
 div.projects {
     float: right;
-    width: 300px;
+    width: 100%;
     border: 3px solid #fff;
     border-radius: 20px;
     padding: 10px;
 }
 
 #projects h2{
-    padding-left: 100px;
+    text-align: center;
     text-decoration: underline;
     color: #fff;
+    text-align: center;
+    font-size: 30px;
 }
+
 
 
 
 /* Boxes */
 #boxes {
-    margin-top: 20px;
+    padding-top: 275px;
+    padding-bottom: 225px;
 }
 
 #boxes > .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -182,9 +205,26 @@ p {
     color: #ffde57;
 }
 
+.fa-square-git {
+    color: #a6a3a3;
+}
+
+.fa-terminal {
+    color: #ffeaea;
+}
+
+.fa-bootstrap {
+    color: #0d6efd;
+}
+
+.fa-react {
+    color: #88dded;
+}
+
 /* About */
 #about .main-col {
-    color: #fff;
+    color: #d6d3d3;
+    padding-bottom: 200px;
 }
 
 #about .sidebar {
@@ -197,6 +237,16 @@ h1 {
 
 #about a {
     color: #90a5f5;
+}
+
+#about p {
+    font-size: 23px;
+    word-spacing: 6px;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 30px;
 }
 
 @media (max-width: 768px) {
@@ -222,10 +272,27 @@ h1 {
 }
 
 /* Contact */
+#contact {
+    padding-bottom: 100px;
+}
 #contact h2 {
     color: #fff;
     text-decoration: underline;
     padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#contact p {
+    font-size: 23px;
+    word-spacing: 6px;
+    text-align: center;
+}
+
+#contact i {
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
 }
 
 /* Footer */
